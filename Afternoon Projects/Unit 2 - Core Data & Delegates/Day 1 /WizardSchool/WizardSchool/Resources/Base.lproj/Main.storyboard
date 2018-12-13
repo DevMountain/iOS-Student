@@ -26,13 +26,13 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Owh-2K-yGK">
                                 <rect key="frame" x="94" y="315" width="187.5" height="36"/>
-                                <color key="backgroundColor" red="0.1486544602" green="0.99963706730000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.32785556356861228" green="0.66666321286472141" blue="0.078849169693220006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Enroll">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="kC9-ph-I4S" kind="presentation" id="slE-wl-ceQ"/>
+                                    <segue destination="kC9-ph-I4S" kind="presentation" identifier="" id="slE-wl-ceQ"/>
                                 </connections>
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vYj-og-3zJ">
@@ -177,8 +177,8 @@
                                     <action selector="saveButtonTapped:" destination="kC9-ph-I4S" eventType="touchUpInside" id="qyj-qQ-yEu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a wand type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgk-1z-Nw0">
-                                <rect key="frame" x="30" y="199" width="177" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a wand type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgk-1z-Nw0">
+                                <rect key="frame" x="30" y="199" width="182.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -191,7 +191,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="almond" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfG-eT-bzs">
                                                 <rect key="frame" x="0.0" y="0.0" width="150.5" height="60"/>
-                                                <color key="backgroundColor" red="0.99625200030000005" green="0.82449179890000002" blue="0.71829050780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.957106173" green="0.51020485159999995" blue="0.54696655270000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="IXn-0e-gse"/>
                                                 </constraints>
@@ -206,7 +206,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="walnut" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2X-Pf-hjR">
                                                 <rect key="frame" x="0.0" y="74" width="150.5" height="60"/>
-                                                <color key="backgroundColor" red="0.99625200030000005" green="0.82449179890000002" blue="0.71829050780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.957106173" green="0.51020485159999995" blue="0.54696655270000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="xjf-H9-fLR"/>
                                                 </constraints>
@@ -226,7 +226,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="mahogany" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hzo-Cp-rYS">
                                                 <rect key="frame" x="0.0" y="0.0" width="150.5" height="60"/>
-                                                <color key="backgroundColor" red="0.99625200030000005" green="0.82449179890000002" blue="0.71829050780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.957106173" green="0.51020485159999995" blue="0.54696655270000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="CzL-Qi-e5g"/>
                                                 </constraints>
@@ -241,7 +241,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="oak" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gry-A1-5iT">
                                                 <rect key="frame" x="0.0" y="74" width="150.5" height="60"/>
-                                                <color key="backgroundColor" red="0.99625200030000005" green="0.82449179890000002" blue="0.71829050780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.957106173" green="0.51020485159999995" blue="0.54696655270000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="qGi-f2-lOC"/>
                                                 </constraints>
@@ -258,8 +258,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a personality trait" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17O-HB-UYs">
-                                <rect key="frame" x="30" y="393" width="221" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a personality trait:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17O-HB-UYs">
+                                <rect key="frame" x="30" y="393" width="226.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -286,15 +286,23 @@
                         <viewLayoutGuide key="safeArea" id="qJr-Nc-H2S"/>
                     </view>
                     <connections>
-                        <outlet property="almondButton" destination="PfG-eT-bzs" id="7Eh-Fw-1HI"/>
-                        <outlet property="braveButton" destination="bnm-cw-lXk" id="vRg-jA-xhR"/>
-                        <outlet property="cunningButton" destination="ykR-53-lH4" id="h0Z-yN-faP"/>
-                        <outlet property="intelligentButton" destination="XLb-jG-Evn" id="lgR-RG-fKc"/>
-                        <outlet property="loyalButton" destination="73z-Y9-SpM" id="Cux-vu-aLW"/>
-                        <outlet property="mahoganyButton" destination="Hzo-Cp-rYS" id="D2p-zg-3nj"/>
-                        <outlet property="oakButton" destination="Gry-A1-5iT" id="tu3-7B-Emc"/>
-                        <outlet property="walnutButton" destination="G2X-Pf-hjR" id="WzQ-PW-pj1"/>
                         <outlet property="wizardNameTextField" destination="vFb-op-LGJ" id="9tH-tv-cvq"/>
+                        <outletCollection property="buttons" destination="bnm-cw-lXk" collectionClass="NSMutableArray" id="TgI-mZ-yIH"/>
+                        <outletCollection property="buttons" destination="73z-Y9-SpM" collectionClass="NSMutableArray" id="wur-dc-IzI"/>
+                        <outletCollection property="buttons" destination="XLb-jG-Evn" collectionClass="NSMutableArray" id="7W5-4w-NNG"/>
+                        <outletCollection property="buttons" destination="PfG-eT-bzs" collectionClass="NSMutableArray" id="JaA-ah-PPC"/>
+                        <outletCollection property="buttons" destination="G2X-Pf-hjR" collectionClass="NSMutableArray" id="Z7S-2U-MiX"/>
+                        <outletCollection property="buttons" destination="Hzo-Cp-rYS" collectionClass="NSMutableArray" id="Y31-uf-WrS"/>
+                        <outletCollection property="buttons" destination="Gry-A1-5iT" collectionClass="NSMutableArray" id="udf-2I-chv"/>
+                        <outletCollection property="buttons" destination="ykR-53-lH4" collectionClass="NSMutableArray" id="fAj-mS-EyW"/>
+                        <outletCollection property="buttons" destination="PfG-eT-bzs" collectionClass="NSMutableArray" id="RZa-YY-uO2"/>
+                        <outletCollection property="buttons" destination="Hzo-Cp-rYS" collectionClass="NSMutableArray" id="x34-3y-wB6"/>
+                        <outletCollection property="buttons" destination="G2X-Pf-hjR" collectionClass="NSMutableArray" id="CSb-Zh-oPX"/>
+                        <outletCollection property="buttons" destination="Gry-A1-5iT" collectionClass="NSMutableArray" id="7zP-7b-Ml8"/>
+                        <outletCollection property="buttons" destination="ykR-53-lH4" collectionClass="NSMutableArray" id="Ww9-BQ-LyO"/>
+                        <outletCollection property="buttons" destination="73z-Y9-SpM" collectionClass="NSMutableArray" id="vQh-x4-xgS"/>
+                        <outletCollection property="buttons" destination="bnm-cw-lXk" collectionClass="NSMutableArray" id="WIU-hA-8Pu"/>
+                        <outletCollection property="buttons" destination="XLb-jG-Evn" collectionClass="NSMutableArray" id="7TD-9t-xM1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mbc-Hh-7iw" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -10,6 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
     
     // MARK: - Properties
+    
     @IBOutlet weak var welcomeLabel: UILabel!
     @IBOutlet weak var yourWandLabel: UILabel!
     @IBOutlet weak var yourHouseLabel: UILabel!
