@@ -2,7 +2,7 @@
 //  SignUpViewController.swift
 //  WizardSchool
 //
-//  Copyright © 2018 DevMtnStudent. All rights reserved.
+//  Copyright © 2018 DevMountain. All rights reserved.
 //
 
 import UIKit
@@ -29,6 +29,10 @@ class EnrollViewController: UIViewController {
     @IBAction func saveButtonTapped(_ sender: Any) {
     }
     
+    /**
+     Sets the selectedWand property on the EnrollViewController based on the sender's restoration identifier.
+     - parameter sender: The button tapped.
+     */
     @IBAction func wandButtonTapped(_ sender: UIButton) {
       
         if let selectedWandButton = selectedWandButton {
@@ -56,6 +60,10 @@ class EnrollViewController: UIViewController {
         self.selectedWandButton = sender
     }
     
+    /**
+     Sets the selectedTrait property on the EnrollViewController based on the sender's restoration identifier.
+     - parameter sender: The button tapped.
+     */
     @IBAction func traitButtonTapped(_ sender: UIButton) {
         
         if let selectedTraitButton = selectedTraitButton {
@@ -85,14 +93,9 @@ class EnrollViewController: UIViewController {
 
 extension EnrollViewController {
     
-    func formatButtons()  {
-        for button in buttons {
-            button.layer.cornerRadius = 10
-            button.layer.borderColor = button.backgroundColor?.cgColor
-            button.layer.borderWidth = 2
-        }
-    }
-    
+    /**
+     Inverts the button's background/text color.
+     */
     func inverseColor(for button: UIButton) {
         let backgroundColor = button.backgroundColor
         let fontColor = button.titleLabel?.textColor
@@ -100,5 +103,16 @@ extension EnrollViewController {
         button.backgroundColor = fontColor
         button.setTitleColor(backgroundColor, for: .normal)
         print("break")
+    }
+    
+    /**
+     Formats each button in the buttons outlet collection on EnrollViewController.
+     */
+    func formatButtons()  {
+        for button in buttons {
+            button.layer.cornerRadius = 10
+            button.layer.borderColor = button.backgroundColor?.cgColor
+            button.layer.borderWidth = 2
+        }
     }
 }

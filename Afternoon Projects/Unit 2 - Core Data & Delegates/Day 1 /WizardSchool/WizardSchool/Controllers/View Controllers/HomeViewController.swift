@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  WizardSchool
 //
-//  Copyright © 2018 DevMtnStudent. All rights reserved.
+//  Copyright © 2018 DevMountain. All rights reserved.
 //
 
 import UIKit
@@ -22,6 +22,9 @@ class HomeViewController: UIViewController {
         
         formatButton()
     }
+}
+
+extension HomeViewController {
     
     func formatButton() {
         enrollButton.layer.cornerRadius = 7

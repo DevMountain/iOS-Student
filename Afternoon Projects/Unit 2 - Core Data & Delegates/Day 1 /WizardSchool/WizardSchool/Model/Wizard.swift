@@ -2,7 +2,7 @@
 //  Wizard.swift
 //  WizardSchool
 //
-//  Copyright © 2018 DevMtnStudent. All rights reserved.
+//  Copyright © 2018 DevMountain. All rights reserved.
 //
 
 import UIKit
@@ -12,6 +12,8 @@ class Wizard {
     let name: String
     let wand: Wand
     let trait: Trait
+    
+    // Returns a UIImage based on the trait selected.
     var houseImage: UIImage {
         var houseName = ""
         
@@ -49,11 +51,4 @@ enum Trait: String {
     case cunning
     case loyal
     case intelligent
-}
-
-enum WizardHouse: String {
-    case gryffindor
-    case hufflepuff
-    case ravenclaw
-    case slytherin
 }
